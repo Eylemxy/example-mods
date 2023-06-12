@@ -47,7 +47,7 @@ Note: Children Ids start at `0` for 1st child, `1` for the 2nd and so on, like:
 `(()=>{daapi.updateCharacter({characterId:daapi.getCharacter({ characterId: daapi.getState().current.id }).fatherId, character:{ isDead:false }}); daapi.setCurrentCharacter({ characterId: daapi.getCharacter({ characterId: daapi.getState().current.id }).fatherId })})()`
 
 ### Change Job
-`daapi.updateCharacter({characterId:daapi.getState().current.id, character:{ job:'wetNurse', jobLevel: 25 }})`
+`daapi.updateCharacter({characterId:daapi.getState().current.id, character:{ job:'Emperor', jobLevel: 25 }})`
 
 ### Change look
 `daapi.updateCharacter({ characterId:daapi.getState().current.id, character: { look: { group: 'roman', type: 'black' } } })`
